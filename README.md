@@ -14,7 +14,7 @@ Communication: RESTful API & Outbound Webhooks (Fetch API).
 
  Repository Structure
 
-root-project/
+job-scheduler/
 ├── backend/
 │   ├── controllers/      # Route logic
 │   ├── database/         # SQLite connection & initialization
@@ -161,7 +161,7 @@ Verification: The system logs the success or failure of the delivery in the serv
 
 1. Backend Setup
 
-cd root-project/backend
+cd job-scheduler/backend
 npm install
 npm run dev
 
@@ -170,7 +170,7 @@ The server will initialize jobs.sqlite automatically and listen on port 5000.
 
 2. Frontend Setup
 
-cd root-project/frontend
+cd job-scheduler/frontend
 npm install
 npm run dev
 

@@ -67,12 +67,7 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen bg-[#F9FAFC] p-4 md:p-10 font-sans text-slate-900">
       <div className="max-w-6xl mx-auto">
-        {error && (
-          <div className="mb-6 p-4 bg-rose-50 border border-rose-100 rounded-2xl text-rose-600 flex items-center gap-3">
-            <AlertCircle size={18} />
-            <span className="text-sm font-bold">{error}</span>
-          </div>
-        )}
+        
 
         <Header onOpenModal={() => setIsModalOpen(true)} onRefresh={fetchJobs} loading={loading} />
 
